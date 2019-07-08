@@ -8,8 +8,9 @@
     <artifactId>cloudDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>discovery</module>
-        <module>configs</module>
+        <module>discovery</module> <!-- 服务注册中心-->
+        <module>configs</module><!--全局配置中心-->
+        <module>authentication</module><!--用户验证-->
     </modules>
     <packaging>pom</packaging>
 
