@@ -16,7 +16,6 @@ public class ResponseMsg {
      */
     private String message;
 
-
     /**
      * 返回结果
      */
@@ -36,9 +35,7 @@ public class ResponseMsg {
                 '}';
     }
 
-
-
-    public ResponseMsg(Builder builder)
+    private ResponseMsg(Builder builder)
     {
         this.errorCode = builder.errorCode;
         this.items = builder.items;
