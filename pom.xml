@@ -13,7 +13,6 @@
         <module>authentication</module><!--用户验证-->
         <module>gateways</module><!--API网关-->
         <module>commons</module><!--通用模块-->
-
     </modules>
     <packaging>pom</packaging>
 
@@ -115,6 +114,13 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpmime</artifactId>
                 <version>${httpmime-version}</version>
+            </dependency>
+
+            <!--公用代码-->
+            <dependency>
+                <groupId>com.linwl.cloudDemo</groupId>
+                <artifactId>commons</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
 

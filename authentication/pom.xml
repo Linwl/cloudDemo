@@ -44,6 +44,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--引入通用包-->
+        <dependency>
+            <groupId>com.linwl.cloudDemo</groupId>
+            <artifactId>commons</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

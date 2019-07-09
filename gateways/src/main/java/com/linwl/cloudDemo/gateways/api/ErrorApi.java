@@ -1,5 +1,7 @@
 package com.linwl.cloudDemo.gateways.api;
 
+import com.linwl.cloudDemo.commons.response.ERRORCODE;
+import com.linwl.cloudDemo.commons.response.ResponseMsg;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +20,7 @@ public class ErrorApi implements ErrorController {
     }
 
     @RequestMapping("/error")
-    public String error() {
-        return "502";
+    public ResponseMsg error() {
+        return new ResponseMsg.Builder().setErrorCode(ERRORCODE.SystemErr).build();
     }
 }
