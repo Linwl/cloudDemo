@@ -49,6 +49,7 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
+        <!--引入通用包-->
         <dependency>
             <groupId>com.linwl.cloudDemo</groupId>
             <artifactId>commons</artifactId>
