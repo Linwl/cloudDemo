@@ -22,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <okHttp-version>3.9.1</okHttp-version>
-        <fastJson-version>1.2.47</fastJson-version>
+        <fastJson-version>1.2.83</fastJson-version>
     </properties>
 
     <dependencies>
