@@ -33,7 +33,7 @@
         <okHttp-version>3.9.1</okHttp-version>
         <feign-version>1.4.4.RELEASE</feign-version>
         <springfox-swagger2-version>2.9.2</springfox-swagger2-version>
-        <springfox-swagger-ui-version>2.9.2</springfox-swagger-ui-version>
+        <springfox-swagger-ui-version>2.10.0</springfox-swagger-ui-version>
         <swagger-models-version>1.5.21</swagger-models-version>
         <sqljdbc4-version>4.0</sqljdbc4-version>
     </properties>
